@@ -1,6 +1,6 @@
 # site: Filmes, Séries, e Animes!
 
-Projeto construído com intuito de aprimorar aprendizagem.
+Projeto construido com intuito  de aprendizagem.
 
 ![preview](./.githubpre/preview1.png)
 ![preview](./.githubpre/preview2.png)
