@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section ul{
+    list-style: none;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+body{
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: rgba(14, 1, 48, 0.76);
+}
+
+body{
+    font-family: Arial;
+    line-height: 160%;
+}
+
+main{
+    max-width: 580px;
+
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    display: grid;
+    gap: 15px;
+    margin-top: 34px;
+}
+
+header{
+    padding-top: 32px;
+    text-align: center;
+    animation: fromTop .7s .4s backwards;
+}
+
+header div{
+    width: 220px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #db9511 0%, #6f00ff 50.22%, #8d107c 100%);
+    border-radius: 10%;
+    display: flex;
+    padding: 4px;
+
+    transition: transfrom 0.1s;
+}
+
+
+header img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+section div{
+    background-color: #1c1b1d;
+    padding: 30px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section{
+    color: white;
+    background-color: #850d75;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+    transition: transfrom 0.1s;
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.40px;
+    color: rgb(185, 185, 185);
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    background-image: linear-gradient(90deg, #bbb801 0%, #04cc9a 50.22%, #850d75 100%);
+    border-radius: 10%;
+    display: flex;
+    padding: 5px;
+}
+
+section ul{
+    animation: toTop .7s .4s backwards;
+}
+
+.Filmes img{
+    width: 120px;
+    border-radius: 8px;
+}
+
+.Series img{
+    width: 120px;
+    border-radius: 8px;
+}
+
+.Animes img{
+    width: 120px;
+    border-radius: 8px;
+}
+
+@keyframes fromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes toTop{
+    from{
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
